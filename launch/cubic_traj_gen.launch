@@ -1,0 +1,14 @@
+<launch>
+    <!--Nodes-->
+    <node pkg="ar_week8_test" name="points_generator" type="points_generator.py" output="screen" />
+    <node pkg="ar_week8_test" name="cubic_traj_planner" type="cubic_traj_planner.py" output="screen" />
+    <node pkg="ar_week8_test" name="compute_cubic_coeffs" type="compute_cubic_coeffs.py"
+        output="screen" />
+    <node pkg="ar_week8_test" name="plot_cubic_traj" type="plot_cubic_traj.py" output="screen" />
+
+    <!--rqt_graph-->
+    <node pkg="rqt_graph" name="rqt_graph" type="rqt_graph" respawn="false" output="screen" />
+
+    <!--rqt_plot-->
+    <node pkg="rqt_plot" name="rqt_plot" type="rqt_plot" respawn="false" output="screen" />
+</launch>
