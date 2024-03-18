@@ -30,10 +30,13 @@
 ## Tech and Versions:
 1. Ubuntu 20.04.6 - focal
 2. ROS Noetic
-3. Python 3.8.10
+3. catkin
+4. rqt
+5. Python 3.8.10
+
 
 ## Package Structure:
-![pkg-struct](ros-pkg-structure.png)
+<img src = './ros-pkg-structure.png' alt='package-structure' width='500' height='500'>
 
 ## Communication Flow:
-![pkg-flow](ros-communication-flow.png)
+<img src = './ros-communication-flow.png' alt='package-structure' width='500' height='500'>
