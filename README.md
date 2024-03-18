@@ -39,4 +39,4 @@
 <img src = './ros-pkg-structure.png' alt='package-structure' width='500' height='500'>
 
 ## Communication Flow:
-<img src = './ros-communication-flow.png' alt='package-structure' width='500' height='500'>
+<img src = './ros-communication-flow.png' alt='package-structure' width='700' height='500'>
