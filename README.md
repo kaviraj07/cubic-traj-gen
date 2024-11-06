@@ -37,9 +37,11 @@ This ROS package will automatically generate point-to-point cubic trajectories c
 4. rqt
 5. Python 3.8.10
 
-
 ## :open_file_folder: Package Structure:
 <img src = './ros-pkg-structure.png' alt='package-structure' width='500' height='500'>
 
 ## :electric_plug: Communication Flow:
 <img src = './ros-communication-flow.png' alt='package-structure' width='700' height='500'>
+
+## :video_camera: Demo:
+https://github.com/user-attachments/assets/6f08e2ed-1598-45a8-af6e-2eafe887aea4
